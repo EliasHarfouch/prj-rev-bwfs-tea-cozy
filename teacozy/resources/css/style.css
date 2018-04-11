@@ -1,0 +1,204 @@
+body
+
+{
+
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 22px;
+
+ }
+
+
+
+/*header section*/
+
+header {
+
+    display: flex;
+    height: 69px;
+    padding-left: 10px;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+          left: 0; right: 0;
+          top: 0;
+
+    align-items: center;
+    background-color: black;
+
+}
+
+header nav a
+{
+
+  text-decoration: underline;
+  margin-right: 30px;
+  color: white;
+
+}
+
+
+.logo {
+
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+
+}
+
+
+.logo img
+{
+   height: 50px;
+   padding-left: 10px;
+}
+
+/*upper section*/
+
+
+.upper-section
+{
+
+  display: flex;
+  margin-top: auto;
+
+}
+
+
+.background-image
+{
+
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  position: relative;
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.purpose
+
+{
+  display: block;
+  position: relative;
+  top: 45%;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+
+}
+
+/*featured tea section*/
+
+
+#featured-tea
+
+{
+
+  padding-top: 50px;
+
+}
+
+/*middle section*/
+
+.middle-section
+
+{
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  margin-bottom: 50px;
+
+}
+
+
+
+
+img.offering
+
+{
+
+  height: 200px;
+  width: 300px;
+}
+
+
+
+.lower-section
+
+{
+  display: flex;
+  justify-content: center;
+
+}
+
+/*location section*/
+
+.location
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  padding-bottom: 80px;
+  margin-left: 40px;
+}
+
+
+.location .downtown
+
+{
+  height: 280px;
+  width: 300px;
+  background-color: black; 
+  opacity: 1;
+}
+
+.location .east-bayside
+
+{
+
+  height: 280px;
+  width: 300px;
+  background-color: black;
+
+}
+
+.location .oakdale
+
+{
+
+  height: 280px;
+  width: 300px;
+  background-color: black;
+}
+
+.contact
+
+{
+  height: 200px;
+}
+
+/*footer section*/
+
+footer
+
+{
+
+  text-align: left;
+  margin-left: 20px;
+
+}
